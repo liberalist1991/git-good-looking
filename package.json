@@ -1,8 +1,8 @@
 {
   "name": "git-good-looking",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "bin": {
-    "ggl": "./bin/www"
+    "goodlook": "./bin/www"
   },
   "description": "make github contributions looking better by auto commit garbage",
   "scripts": {
