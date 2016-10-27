@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var pkg = require('../package.json');
+
+program.version(pkg.version)
+	.option('-t, --timeout <n>', 'timeout of auto commit, default 10')
+	.parse(process.argv);
+
+require('../lib/start').run({
+	timeout: program.timeout
+});

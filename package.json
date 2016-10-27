@@ -1,0 +1,29 @@
+{
+  "name": "git-good-looking",
+  "version": "0.0.1",
+  "bin": {
+    "ggl": "./bin/www"
+  },
+  "description": "make github contributions looking better by auto commit garbage",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liberalist",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "sfconsole": "0.0.6"
+  },
+  "keywords": [
+    "auto commit",
+    "github",
+    "tool",
+    "good-looking"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liberalist1991/git-good-looking.git",
+    "web": "https://github.com/liberalist1991/git-good-looking"
+  }
+}
