@@ -7,7 +7,7 @@
 
 `npm install -g git-good-looking`
 ```
-ggl -t [timeout]
+goodlook -t [timeout]
 
 ```
 
